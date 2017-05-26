@@ -1,0 +1,9 @@
+Django
+Pillow==4.0.0
+django-braces==1.10.0
+django-extensions==1.7.5
+django-filter
+djangorestframework
+django-rest-swagger
+django-cors-headers
+social-auth-app-django

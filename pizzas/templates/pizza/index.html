@@ -1,0 +1,9 @@
+<h2> Lista de Pizzas </h2>
+
+<ul>
+    {% for pizza in pizza_list %}
+    <li>
+        <a href="/pizzas/{{pizza.id}}/"> {{ pizza.name }} </a>
+    </li>
+    {% endfor %}
+</ul>

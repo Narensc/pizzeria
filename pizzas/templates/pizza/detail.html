@@ -1,0 +1,19 @@
+<style type="text/css">
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+</style>
+
+<h1> Detalles de la pizza {{pizza}} </h1>
+<table bgcolor="#00FF00">
+    <ul>
+        {% for ingred in pizza.ingredients.all %}
+        <li>
+            <h2 color=blue> {{ ingred }} </h2>
+        </li>
+        {% endfor %}
+    </ul>
+</table>
